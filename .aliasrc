@@ -1,0 +1,13 @@
+alias vim='nvim'
+
+alias gits='git status'
+alias gitc='git commit'
+alias gita='git add'
+alias gitp='git push'
+alias gitf='git fetch'
+alias gitm='git merge'
+
+alias hmsw='cd $HOME/nixos-config && home-manager switch --flake'
+alias hmswbak='cd $HOME/nixos-config && home-manager switch -b bak --flake'
+alias nixrb='cd $HOME/nixos-config && sudo nixos-rebuild switch --flake .#'
+alias nixupdate='cd $HOME/nixos-config && nix flake update'
