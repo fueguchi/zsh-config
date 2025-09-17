@@ -1,3 +1,4 @@
+alias ls='eza --icons'
 alias vim='nvim'
 
 alias gits='git status'
