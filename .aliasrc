@@ -7,6 +7,7 @@ alias gitp='git push'
 alias gitf='git fetch'
 alias gitm='git merge'
 
+alias nixgc='nix-collect-garbage'
 alias hmsw='cd $HOME/nixos-config && home-manager switch --flake'
 alias hmswbak='cd $HOME/nixos-config && home-manager switch -b bak --flake'
 alias nixrb='cd $HOME/nixos-config && sudo nixos-rebuild switch --flake .#'
